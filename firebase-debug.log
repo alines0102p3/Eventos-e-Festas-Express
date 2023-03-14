@@ -1,0 +1,42 @@
+[debug] [2023-03-14T13:37:21.261Z] ----------------------------------------------------------------------
+[debug] [2023-03-14T13:37:21.272Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Beto\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-03-14T13:37:21.283Z] CLI Version:   11.24.1
+[debug] [2023-03-14T13:37:21.284Z] Platform:      win32
+[debug] [2023-03-14T13:37:21.285Z] Node Version:  v18.15.0
+[debug] [2023-03-14T13:37:21.309Z] Time:          Tue Mar 14 2023 10:37:21 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-03-14T13:37:21.310Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-14T13:37:21.973Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-14T13:37:21.975Z] > authorizing via signed-in user (alines0102p3@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-03-14T13:37:22.064Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-14T13:37:22.065Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-14T13:37:22.067Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-03-14T13:37:22.115Z] [hub] writing locator at C:\Users\Beto\AppData\Local\Temp\hub-eventos-e-festas-express.json
+[debug] [2023-03-14T13:37:22.242Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/eventos-e-festas-express/sites 
+[debug] [2023-03-14T13:37:23.855Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/eventos-e-festas-express/sites 200
+[debug] [2023-03-14T13:37:23.856Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/eventos-e-festas-express/sites {"sites":[{"name":"projects/eventos-e-festas-express/sites/eventos-e-festas-express","defaultUrl":"https://eventos-e-festas-express.web.app","type":"DEFAULT_SITE"},{"name":"projects/eventos-e-festas-express/sites/eventosefestasexpress","defaultUrl":"https://eventosefestasexpress.web.app","appId":"1:523831678024:web:3fa9fccff829fc11df747d","type":"USER_SITE"}]}
+[debug] [2023-03-14T13:37:23.859Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/eventos-e-festas-express/webApps/-/config [none]
+[debug] [2023-03-14T13:37:24.921Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/eventos-e-festas-express/webApps/-/config 200
+[debug] [2023-03-14T13:37:24.923Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/eventos-e-festas-express/webApps/-/config {"projectId":"eventos-e-festas-express","appId":"1:523831678024:web:3fa9fccff829fc11df747d","storageBucket":"eventos-e-festas-express.appspot.com","apiKey":"AIzaSyBondLF4NR8c2GWadJtbeAplvdPUgR1JQk","authDomain":"eventos-e-festas-express.firebaseapp.com","messagingSenderId":"523831678024","measurementId":"G-C6WG1H9HT3"}
+[debug] [2023-03-14T13:37:25.438Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/eventos-e-festas-express [none]
+[debug] [2023-03-14T13:37:25.914Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/eventos-e-festas-express 200
+[debug] [2023-03-14T13:37:25.915Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/eventos-e-festas-express {"projectId":"eventos-e-festas-express","projectNumber":"523831678024","displayName":"Eventos e festas express","name":"projects/eventos-e-festas-express","resources":{"hostingSite":"eventos-e-festas-express"},"state":"ACTIVE","etag":"1_e7087fd6-df0b-4191-9fa5-7f9c42eb2943"}
+[info] i  hosting[eventos-e-festas-express]: Serving hosting files from: y {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1my\u001b[22m"}}
+[info] +  hosting[eventos-e-festas-express]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
